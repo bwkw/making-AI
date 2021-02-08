@@ -14,7 +14,6 @@ from sklearn.linear_model import LogisticRegression
 
 
 #表示オプションの調整
-#numpyaの浮動小数点の表示精度
 np.set_printoptions(suppress=True, precision=4)
 pd.options.display.float_format = "{:4f}".format
 pd.set_option("display.max_columns", None)
