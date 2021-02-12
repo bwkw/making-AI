@@ -87,6 +87,3 @@ display(w.head())
 plt.figure(figsize=(8, 8))
 sns.boxplot(x="variable", y="value", data=w, hue="種別")
 plt.show()
-
-
-

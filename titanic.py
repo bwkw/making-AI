@@ -182,4 +182,3 @@ df13[["年齢", "料金"]] = stdsc.fit_transform(df13[["年齢", "料金"]])
 
 #結果確認
 display(df13.head())
-
